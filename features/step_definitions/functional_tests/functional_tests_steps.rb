@@ -104,10 +104,10 @@ Then(/^all the functional tests for the package "([^"]*)" pass$/) do |package_na
         "test_scheduler_stats",                            # Requires a backend named "mybackend"
         "test_quotas",                                     # uses assertRaises but command does not fail. Needs correction upstream.
         "test_share_server_list_by_user",                  # crowbar doesnt create share-servers
-        "test_add_remove_access_to_private_share_type",    # needs keystone v3 support
-        "test_shares_list_filter_by_share_server_as_user", # needs keystone v3 support
-        "test_shares_list_filter_by_project_id",           # needs keystone v3 support
-        "test_list_shares_by_project_id"                   # needs keystone v3 support
+        #"test_add_remove_access_to_private_share_type",    # needs keystone v3 support
+        #"test_shares_list_filter_by_share_server_as_user", # needs keystone v3 support
+        #"test_shares_list_filter_by_project_id",           # needs keystone v3 support
+        #"test_list_shares_by_project_id"                   # needs keystone v3 support
         # Bug report: https://bugs.launchpad.net/python-manilaclient/+bug/1516562
       ]
     end
